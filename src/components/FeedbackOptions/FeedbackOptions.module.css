@@ -1,0 +1,17 @@
+.item {
+  padding: 10px 25px;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(71, 71, 71);
+  color: white;
+}
+
+.item:hover,
+.item:focus {
+  background-color: rgb(19, 18, 18);
+}
+
+.item:not(:last-child) {
+  margin-right: 10px;
+}
